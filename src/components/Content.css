@@ -1,0 +1,284 @@
+
+body {
+  overflow-x: hidden
+}
+
+.lets-talk {
+  background: #272624;
+  padding: 3em;
+  height: 10vh;
+  text-align: right;
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Lora', serif;
+}
+
+.lets-talk > h1 {
+  position: absolute;
+  text-align: left;
+  text-shadow:4px 4px 4px black;
+  z-index: 0;
+  transform: translateY(-200px);
+}
+
+
+.container {
+  background: #f8f8f8;
+}
+
+.wrapper {
+  position: relative;
+  padding: 10em;
+  padding-left: 2em;
+  margin-left: 2em;
+  border: #D2B48C solid 3px;
+  margin: auto;
+  width: 50%;
+  top: -50px;
+  z-index: 2;
+  font-size: 1em;
+  font-family: 'Lora', serif;
+  background: #f8f8f8;
+}
+
+
+.text-1 {
+  width: 50%;
+  margin: auto;
+
+}
+
+.About-us {
+  color: #dfb992;
+}
+
+
+
+.our-services-wrapper {
+  padding: 5em;
+  font-family: 'Lora', serif;
+}
+
+
+.our-services {
+  color: #dfb992;
+}
+
+
+.selection {
+  padding: 2em;
+  border-top: solid 1px lightgrey;
+  border-bottom: solid 1px lightgrey;
+}
+
+.selection-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.selection-wrapper > div {
+  width: 50%;
+}
+
+.p-select {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 19.92px;
+}
+
+.p-select > p:nth-child(1) {
+  text-align: center;
+}
+
+.selection-wrapper > h2 {
+  width: 30%;
+}
+
+
+
+.testimonial-container {
+  background: #272624;
+  padding: 5em;
+  font-family: 'Lora', serif;
+}
+
+.testimonial-wrapper > h2 {
+  color: #dfb992;
+  font-size: 2em;
+}
+
+
+.contact-container {
+  padding: 5em;
+  background: #f8f8f8;
+}
+
+.contact-wrapper h2 {
+  color: #dfb992;
+  font-size: 2em;
+  font-family: 'Lora', serif;
+}
+
+.box-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-box {
+  position: relative;
+  height: 15em;
+  width: 20em;
+  border: solid 2px black;
+  margin: 0 -1px;
+}
+
+.contact-box h2 {
+  display: flex;
+  justify-content: center;
+  color: black;
+  margin: auto;
+}
+
+.contact-box p {
+  top: 50px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 10px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.contact-container button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin: 50px auto;
+  font-size: 1.5em;
+  width: 8em;
+  cursor: pointer;
+  background: #272624;
+  color: white;
+  transition: 0.2s ease-in-out;
+  font-family: 'Lora', serif;
+  border: thin 1px black;
+
+}
+
+.contact-container button:hover {
+  background: transparent;
+  color: black;
+}
+
+
+
+.contact-btn p {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2em;
+}
+
+.instagram {
+  border-radius: 10px;
+  transition:  ease-in-out 400ms;
+  border: 4px solid transparent;
+}
+
+.instagram:hover {
+  border: 4px solid black;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1135px) {
+
+
+  body {
+    overflow-x: hidden;
+  }
+
+
+  .box-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lets-talk {
+    padding: 0;
+    font-size: 1.5em;
+  }
+
+  .wrapper {
+    position: relative;
+    padding: 0;
+    width: 90%;
+  }
+
+  .text-1 {
+    width: 90%;
+}
+
+
+.lets-talk > p {
+  display: none;
+}
+
+
+.our-services-wrapper {
+  padding: 0;
+  margin: 10px;
+}
+
+
+.selection-wrapper {
+  flex-direction: column;
+}
+
+.selection-wrapper > h2 {
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  width: 80%;
+}
+
+.selection {
+  padding: 0;
+  margin: 0;
+}
+
+
+.p-select {
+  text-align: center;
+  margin: 0;
+}
+
+.lets-talk > h1 {
+  display: none;
+}
+
+
+.selection-wrapper > div {
+  width: 100%;
+}
+
+
+}
